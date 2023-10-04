@@ -18,6 +18,12 @@ public class Product {
     public int hashCode() {
         return Objects.hash(key);
     }
+    public String getName(){
+        return name;
+    }
+    public int getPrice(){
+        return price;
+    }
     public String getProduct() {
         return "Product{" +
                 "key='" + key + '\'' +
