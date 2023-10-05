@@ -25,7 +25,7 @@ public class CartApp {
 
         myCart.removeProduct(product1, 1);
 
-        System.out.println("장바구니 내역 (상품 1 개수 감소):");
+        System.out.println("장바구니 내역:");
         myCart.showItems();
 
     }

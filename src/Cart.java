@@ -29,7 +29,7 @@ public class Cart {
         for (Map.Entry<Product, Integer> entry : items.entrySet()) {
             Product product = entry.getKey();
             int quantity = entry.getValue();
-            System.out.println(product.getName() + " - Quantity: " + quantity);
+            System.out.println(product.getName() + " - " + quantity);
         }
     }
 }

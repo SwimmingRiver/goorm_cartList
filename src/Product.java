@@ -24,11 +24,5 @@ public class Product {
     public int getPrice(){
         return price;
     }
-    public String getProduct() {
-        return "Product{" +
-                "key='" + key + '\'' +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
+
 }
